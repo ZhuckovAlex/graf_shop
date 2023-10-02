@@ -47,7 +47,7 @@ body{
 .first-block{
 	/*max-width: 1920px;*/
 	min-height: 100vh;
-	background: url('images/bgh2.png') 92% bottom/auto 87% no-repeat ,url('images/bg2.png') top left/auto no-repeat,url('images/bgh1.png')  right 200px/70% no-repeat,radial-gradient(rgba(255, 255, 255, 0.07),
+	background: url('images/bgh2.png') 92% bottom/auto 87% no-repeat ,url('images/bg2.png') top left/auto no-repeat,url('images/bgh1.png')  right 200px/70% no-repeat,radial-gradient(rgba(255, 255, 255, 0.09),
 rgba(255, 255, 255, 0)) , linear-gradient(
 #17171A,
 #17171A);
@@ -67,13 +67,14 @@ rgba(255, 255, 255, 0)) , linear-gradient(
 	display: none;
 }
 .header__link{
-	font-weight: 600;
+	font-weight: 300;
 	font-size: 16px;
 	line-height: 1.5;
 	color: #FEFEFE;
     transition: 0.3s;
 }
 .header__link:hover{
+	font-weight: 600;
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 15px;
@@ -221,7 +222,7 @@ rgba(255, 255, 255, 0)) , linear-gradient(
 		transform: translateY(50px);
 	}
 	.first-block{
-	background: url('images/bgh2.png') 92% bottom/auto 87% no-repeat,url('images/bg2.png') top left/auto no-repeat,url('images/bgh1.png')  right 200px/70% no-repeat,radial-gradient(rgba(255, 255, 255, 0.07),
+	background: url('images/bgh2.png') 92% bottom/auto 87% no-repeat,url('images/bg2.png') top left/auto no-repeat,url('images/bgh1.png')  right 200px/70% no-repeat,radial-gradient(rgba(255, 255, 255, 0.09),
 rgba(255, 255, 255, 0)) , linear-gradient(
 #17171A,
 #17171A);	}
@@ -233,7 +234,7 @@ rgba(255, 255, 255, 0)) , linear-gradient(
 	    	margin-left: 20px;
 	    }
 		.first-block{
-		background: url('images/bgh2.png') 110% bottom/auto 60% no-repeat,url('images/bg2.png') top left/auto no-repeat,url('images/bgh1.png')  right 200px/ auto 100% no-repeat , radial-gradient(rgba(255, 255, 255, 0.07),
+		background: url('images/bgh2.png') 110% bottom/auto 60% no-repeat,url('images/bg2.png') top left/auto no-repeat,url('images/bgh1.png')  right 200px/ auto 100% no-repeat , radial-gradient(rgba(255, 255, 255, 0.09),
 rgba(255, 255, 255, 0)) , linear-gradient(
 #17171A,
 #17171A);
@@ -404,7 +405,7 @@ rgba(255, 255, 255, 0)) , linear-gradient(
 }
 @media (max-width: 779px) {
 		.first-block{
-		background: url('images/bgh2.png') 90% bottom/auto 50% no-repeat,url('images/bg2.png') top left/auto no-repeat,url('images/bgh1.png')  right 200px/auto 100%  no-repeat, radial-gradient(rgba(255, 255, 255, 0.07),
+		background: url('images/bgh2.png') 90% bottom/auto 50% no-repeat,url('images/bg2.png') top left/auto no-repeat,url('images/bgh1.png')  right 200px/auto 100%  no-repeat, radial-gradient(rgba(255, 255, 255, 0.09),
 rgba(255, 255, 255, 0)) , linear-gradient(
 #17171A,
 #17171A);
@@ -413,11 +414,11 @@ rgba(255, 255, 255, 0)) , linear-gradient(
 @media (max-width: 580px) {
 		.first-block{
         
-	/*	background: url('images/bgh2.png') 80% bottom/90% 50% no-repeat,url('images/bgh1.png')  right 200px/70% , radial-gradient(rgba(255, 255, 255, 0.07),
+	/*	background: url('images/bgh2.png') 80% bottom/90% 50% no-repeat,url('images/bgh1.png')  right 200px/70% , radial-gradient(rgba(255, 255, 255, 0.09),
 rgba(255, 255, 255, 0)) , linear-gradient(
 #17171A,
 #17171A);*/
-		background:url('images/bg2.png') top left/auto no-repeat, url('images/bgh1.png')  right 200px/auto 100% no-repeat ,radial-gradient(rgba(255, 255, 255, 0.07),
+		background:url('images/bg2.png') top left/auto no-repeat, url('images/bgh1.png')  right 200px/auto 100% no-repeat ,radial-gradient(rgba(255, 255, 255, 0.09),
 rgba(255, 255, 255, 0)) , linear-gradient(
 #17171A,
 #17171A);
